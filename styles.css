@@ -312,3 +312,8 @@
         border: 5px solid var(--gris-oscuro);
         outline: 3px solid var(--verde);
     }
+    
+    i {
+        font-size: 4.5rem;
+        color: var(--verde)
+    }
