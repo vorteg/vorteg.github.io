@@ -151,8 +151,6 @@
     }
     
     section {
-        display: flex;
-        flex-direction: column;
         width: 100%;
         margin: 0 auto;
         padding: 10px;
@@ -205,41 +203,16 @@
     }
     /*Mis Proyectos*/
     
-    .main-plans-container {
-        width: 100%;
+    #plans {
         min-width: 320px;
         padding-bottom: 70px;
         text-align: center;
     }
     
-    .plans--title {
-        width: 90%;
-        min-width: 288px;
-        height: auto;
-        margin: 0 auto;
-        margin-bottom: 50px;
-    }
-    
-    .plans--title h2 {
-        padding-top: 50px;
-        font-size: 2.4rem;
-        font-weight: bold;
-        line-height: 2.6rem;
-        color: var(--blanco);
-    }
-    
-    .plans--title p {
-        padding-top: 30px;
-        font-size: 1.4rem;
-        font-weight: 500;
-        line-height: 1.8rem;
-        color: var(--blanco);
-    }
-    
-    .plans-container--slider {
+    section .plans-container--slider {
         display: flex;
-        height: 516px;
-        overflow-x: scroll;
+        overflow-y: hidden;
+        overflow-x: auto;
         overscroll-behavior-x: contain;
         scroll-snap-type: x proximity;
     }
@@ -248,18 +221,22 @@
         position: relative;
         scroll-snap-align: center;
         width: 100%;
-        min-width: 390px;
-        max-width: 300px;
-        /* height: 800px; */
+        height: 250px;
+        min-width: 300px;
         margin: 50px 5px 0;
-        /* padding: 0 15px; */
-        background-image: url(./images/project2.png);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        text-align: center;
+        border: 2px solid var(--verde);
         border-radius: 15px;
         box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+    }
+    
+    .plan-info-container {
+        width: 100%;
+        height: 100%;
+        background-image: url(./images/project3.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 15px;
     }
     
     .recommended {
@@ -273,28 +250,22 @@
         background-color: var(--verde);
         border-radius: 8px;
         color: var(--blanco);
-    }
-    
-    .plan-card--title {
-        padding-top: 30px;
-        font-size: 1.4rem;
-        /* font-weight: 500; */
-        line-height: 1.8rem;
-        color: black;
+        text-align: center;
     }
     
     .plan-card--ca {
+        position: absolute;
+        bottom: 20px;
+        left: calc(50% - 75px);
         width: 150px;
         height: 48px;
-        margin-top: 400px;
-        background-color: var(--verde);
-        border: 2px solid var(--verde);
+        background-color: var(--blanco);
+        border-color: var(--verde);
         border-radius: 4px;
-        /* font-family: 'DM Sans', sans-serif; */
         font-size: 1.4rem;
         font-weight: bold;
         line-height: 1.8rem;
-        /* color: black; */
+        color: black
     }
     
     .plan-card--ca span {
