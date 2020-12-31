@@ -4,53 +4,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Description" content="Experto en desarrollo de software, especializado en web application e impulsor de emprendedores.">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <meta name="Description"
+        content="Experto en desarrollo de software, especializado en web application e impulsor de emprendedores.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald&display=swap" rel="stylesheet" />
     <link href="styles.css" rel="stylesheet" />
-    <link rel="stylesheet" href="./css/deskktop.css" media="(min-width:930px)">
+    <link rel="stylesheet" href="./css/menu.css" media="(max-width:929px)"/>
+    <link rel="stylesheet" href="./css/deskktop.css" media="(min-width:930px)"/>
     <title>Victor Ortega</title>
 </head>
 
 <body>
     <a href="#main" class="skip-link">Saltar al contenido</a>
     <header>
+
         <img class="header__img" src="images/victor.jpeg" alt="Victor Ortega" class="header-img" />
         <div class="header__container--title">
             <h1>Victor Ortega</h1>
             <h2>Full Stack Developer</h2>
         </div>
-        <nav>
-            <span class="navbar-toggle" id="js-navbar-toggle">
-                <i class="fas fa-bars"></i>
-            </span>
-            <ul class="navigation" id="js-menu">
-                <li class="nav-item"><a href="#acerca">Acerca de</a></li>
-                <li class="nav-item"><a href="#plans">Mis Proyectos</a></li>
-                <li class="nav-item"><a href="#contacto">Contacto</a></li>
-            </ul>
-        </nav>
+
+
     </header>
+    <nav class="menu-wrap">
+        <input type="checkbox" class="toggler">
+        <div class="hamburger">
+            <div></div>
+        </div>
+        <div class="menu">
+            <div>
+                <div>
+                    <ul class="navigation">
+                        <li class="nav-item"><a href="#acerca">Acerca de</a></li>
+                        <li class="nav-item"><a href="#plans">Mis Proyectos</a></li>
+                        <li class="nav-item"><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+
+
+
+    
+
     <main>
         <section name="acerca" id="acerca">
             <h2 class="header">Acerca de</h2>
             <p class="intro">
-                Hola! Soy Victor 👋 Soy Mexicano, me encantan los gatos y tambien disñar aplicaciones para la web 😍 Después de estudiar Ingeniería Electrónica en el Instituto Tecnológico de Durango, trabajé varios años en la industria digital donde aprendi de processos
-                para la elaboracion de grandes proyectos de software. Llevo un poco más de tres años enfocándome en front end, específicamente en JavaScript y accesibilidad. Sueño con una web donde todo el mundo pueda conseguir un trabajo de manera simple
-                y practica. Aquí puedes ver algunos de mis proyectos recientes y también puedes contactarme por si quieres hablar de tecnología, accesibilidad o gatos!</p>
+                Hola! Soy Victor 👋 Soy Mexicano, me encantan los gatos y tambien disñar aplicaciones para la web 😍
+                Después de estudiar Ingeniería Electrónica en el Instituto Tecnológico de Durango, trabajé varios años
+                en la industria digital donde aprendi de processos
+                para la elaboracion de grandes proyectos de software. Llevo un poco más de tres años enfocándome en
+                front end, específicamente en JavaScript y accesibilidad. Sueño con una web donde todo el mundo pueda
+                conseguir un trabajo de manera simple
+                y practica. Aquí puedes ver algunos de mis proyectos recientes y también puedes contactarme por si
+                quieres hablar de tecnología, accesibilidad o gatos!</p>
             <div class="social-media-container">
                 <ul class="social-media__list">
                     <li>
-                        <a href="https://twitter.com/QupiVorteg" target="_blank" rel="noopener"><i class="fab fa-twitter-square"></i>
+                        <a href="https://twitter.com/QupiVorteg" target="_blank" rel="noopener"><i
+                                class="fab fa-twitter-square"></i>
                             <p class="social-link-text">Twitter</p>
                         </a>
                     </li>
                     <li>
-                        <a href="https://github.com/vorteg" target="_blank" rel="noopener"><i class="fab fa-github-square"></i><p class="social-link-text">GitHub</p>
+                        <a href="https://github.com/vorteg" target="_blank" rel="noopener"><i
+                                class="fab fa-github-square"></i>
+                            <p class="social-link-text">GitHub</p>
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/in/victorm-ortegar01/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i>
+                        <a href="https://www.linkedin.com/in/victorm-ortegar01/" target="_blank" rel="noopener"><i
+                                class="fab fa-linkedin"></i>
                             <p class="social-link-text">LinkedIn</p>
                         </a>
                     </li>
@@ -71,13 +101,6 @@
                     <p class="recommended">Web Apps</p>
                     <div class="plan-info-container">
 
-                        <button class="plan-card--ca">Detalles <i  class="fas fa-arrow-right"></i></button>
-                    </div>
-                </article>
-                <article class="plans-container--card">
-                    <p class="recommended">Web Apps</p>
-                    <div class="plan-info-container">
-
                         <button class="plan-card--ca">Detalles <i class="fas fa-arrow-right"></i></button>
                     </div>
                 </article>
@@ -88,7 +111,15 @@
                         <button class="plan-card--ca">Detalles <i class="fas fa-arrow-right"></i></button>
                     </div>
                 </article>
-                <button class="arrow arrow-right" aria-label="forward button"><i class="fas fa-arrow-right"></i></button>
+                <article class="plans-container--card">
+                    <p class="recommended">Web Apps</p>
+                    <div class="plan-info-container">
+
+                        <button class="plan-card--ca">Detalles <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </article>
+                <button class="arrow arrow-right" aria-label="forward button"><i
+                        class="fas fa-arrow-right"></i></button>
 
 
                 </div>
@@ -118,11 +149,13 @@
         <h2 class="contact-section--tittle">Contacto</h2>
         <p class="contact-section--subtittle">Mandame un mensaje usando el siguiente el formulario </p>
         <form class="form-container">
-            <label class="form-label">Nombre</label><input placeholder="Nombre" type="text" aria-label="nombre" id="name" />
+            <label class="form-label">Nombre</label><input placeholder="Nombre" type="text" aria-label="nombre"
+                id="name" />
             <span id="name-error" aria-live="assertive"></span>
             <br />
-            <label class="form-label">Correo</label><input placeholder="Correo" type="text" aria-label="correo" /> <br />
-            <label class="message-input">Mensaje<input  type="text" /> <br /></label>
+            <label class="form-label">Correo</label><input placeholder="Correo" type="text" aria-label="correo" />
+            <br />
+            <label class="message-input">Mensaje<input type="text" /> <br /></label>
             <button class="send-button">Enviar</button>
         </form>
     </footer>

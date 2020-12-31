@@ -1,8 +1,15 @@
+/* Show menu */
+.menu-wrap .menu{
+    visibility: visible;
+}
+
+
 .navigation {
     display: flex;
     justify-content: space-between;
     width: 100%;
     cursor: pointer;
+    background-color:var(--azul);
 }
 
 .nav-item a {
@@ -25,6 +32,10 @@
     font-family: var(--secondary-font);
 }
 
-.navbar-toggle {
-    display: none
+.menu-wrap input{
+    display: none;
 }
+
+
+
+
