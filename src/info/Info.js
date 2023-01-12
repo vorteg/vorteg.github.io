@@ -2,6 +2,7 @@ import self from "../img/self.jpeg";
 import mock1 from "../img/mock1.png";
 import mock2 from "../img/mock2.jpeg";
 import mock3 from "../img/mockAPI.png";
+import mock4 from "../img/mock6.png";
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -130,6 +131,12 @@ export const info = {
       live: "https://9daobr.deta.dev/docs",
       source: "https://github.com/vorteg/combination-sum-api",
       image: mock3,
+    },
+    {
+      title: "E-Commerce CacheShop",
+      live: "https://cacheshop.mercadoshops.com.mx/",
+      source: "",
+      image: mock4,
     },
   ],
 };
