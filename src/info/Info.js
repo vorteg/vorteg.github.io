@@ -1,6 +1,6 @@
 import self from "../img/self.jpeg";
 import mock1 from "../img/mock1.png";
-import mock2 from "../img/mock2.jpeg";
+import mock2 from "../img/mock7.png";
 import mock3 from "../img/mockAPI.png";
 import mock4 from "../img/mock6.png";
 
@@ -121,9 +121,9 @@ export const info = {
       image: mock1,
     },
     {
-      title: "PC English",
-      live: "https://www.facebook.com/PCenglishclass",
-      source: "",
+      title: "Prompts AI Nextjs 13",
+      live: "https://promptai-eight.vercel.app/",
+      source: "https://github.com/vorteg/promptai",
       image: mock2,
     },
     {
